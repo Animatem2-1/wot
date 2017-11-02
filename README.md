@@ -1,3 +1,5 @@
-Welcome!\n
-Main Topic: Internet of Things\n
+Welcome!
+
+Main Topic: Internet of Things
+
 SubTopic: WWW of Things
