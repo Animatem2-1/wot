@@ -1,0 +1,34 @@
+{
+"pi" : {
+    "name" : "Webowe Pi",
+    "description" : "Raspberry pi i www rzeczy - testy.",
+    "port" : 8484,
+
+    "sensors" : {
+      "temperature" : {
+        "name" : "Czujnik temperatury",
+        "description" : "czujnik temperatury",
+        "unit" : "celsius",
+        "value" : 0,
+        "gpio" : 12
+      },
+      "humidity" : {
+        "name" : "Czujnik wilgoci",
+        "description" : "czujnik wilgoci",
+        "unit" : "%",
+        "value" : 0,
+        "gpio" : 12
+      }
+    },
+
+    "actuators" : {
+      "led" : {
+        "1" : {
+          "name" : "LED 1",
+          "value" : false,
+          "gpio" : 4
+        }
+      }
+    }
+}
+}
