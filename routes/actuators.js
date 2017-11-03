@@ -1,10 +1,11 @@
-var express = require ('express'),
+var express = require('express'),
   router = express.Router(),
-  resources = require ('./../resources/model');
+  resources = require('./../resources/model');
 
 router.route('/').get(function (req, res, next) {
   res.send(resources.pi.actuators);
 });
+
 router.route('/led').get(function (req, res, next) {
   res.send(resources.pi.actuators.led);
 });
