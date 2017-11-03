@@ -22,10 +22,12 @@
     },
 
     "actuators" : {
-      "led" : {
+      "leds" : {
+        "1" : {
           "name" : "LED 1",
           "value" : false,
           "gpio" : 4
+        }
       }
     }
 }
