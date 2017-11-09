@@ -1,7 +1,7 @@
 var httpServer = require('./servers/http'),
   resources = require('./resources/model');
 
-var ledPlugin = require('./plugins/internal/ledsPlugin'),
+var ledsPlugin = require('./plugins/internal/ledsPlugin'),
   dhtPlugin = require('./plugins/internal/DHT22SensorPlugin.js');
 
 ledsPlugin.start({'simulate': false, 'frequency': 2000});
