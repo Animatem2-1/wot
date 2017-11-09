@@ -1,5 +1,5 @@
 var resources = require('./../../resources/model');
-  //utils = require('./../../utils/utils.js');
+  utils = require('./../../utils/utils.js');
 var interval, sensor;
 var model = resources.pi.sensors;
 var pluginName = 'Temperatura i Wilgotność';
